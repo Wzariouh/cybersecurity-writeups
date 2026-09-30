@@ -4,7 +4,7 @@ Bienvenidos a mi primer **writeup** de una máquina CTF.
 
 Esta vez resolveremos la máquina llamada ***Three*** de **Hack The Box (HTB)**.
 
-![nmap.png](nmap.png)
+![[Pasted image 20260928230016.png]]
 
 ## 1. Reconocimiento
 
@@ -50,7 +50,7 @@ Podemos observar que tenemos dos puertos abiertos:
 
 De esta manera ya podemos responder a la primera pregunta de la máquina.
 
-![web.png](web.png)
+![[Pasted image 20260928231459.png]]
 
 ---
 
@@ -60,7 +60,7 @@ En la siguiente pregunta nos dan una pista para continuar con la enumeración.
 
 Accedemos al apartado de ***Contact*** de la página web para intentar encontrar más información sobre el dominio utilizado por la máquina.
 
-![gobuster.png](gobuster.png)
+![[Pasted image 20260928231708.png]]
 
 Aquí encontramos el dominio:
 
@@ -236,7 +236,7 @@ Por lo tanto, podemos acceder al directorio y leer la flag.
 
 En esta máquina no es necesario realizar una **escalada de privilegios** para completar el laboratorio.
 
-![shell.png](shell.png)
+![[Pasted image 20260929000635.png]]
 
 ## Conclusión
 
